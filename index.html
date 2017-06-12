@@ -4,29 +4,29 @@
 <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
-<h1>Enter the system</h1><br>
-<p>It is necessary to login in Your account in oder to sign up for a course.</p><br>
-<table>
+<h1>Enter the system</h1>
+<div><small>It is necessary to login in Your account in order to sign up for a course.</small></div><br>
+<table id="container">
 	<tr>
 		<td class="box1">
-		<p>ARE YOU NEW? <span class="reg">REGISTER</span></p>
+		<p><b style="color:grey;">ARE YOU NEW? <span class="reg">REGISTER</span></b></p>
 		<form>
-			<input type="text" name="newuname" placeholder="Username"><br>
-			<input type="email" name="email" placeholder="Email"><br>
-			<input type="password" name="pwd1" placeholder="Password"><br>
-			<input type="password" name="pwd2" placeholder="Confirm Password"><br>
+			<input type="text" id="field" name="newuname" placeholder="Username"><br><br>
+			<input type="email" id="field" name="email" placeholder="Email"><br><br>
+			<input type="password" id="field" name="pwd1" placeholder="Password"><br><br>
+			<input type="password" id="field" name="pwd2" placeholder="Confirm Password"><br><br>
 			<button type="submit" name="reg" class="register"> Register</button>
 		</form>
 		</td>
 		<td class="box2">
-		<h3> ALREADY A STUDENT? LOGIN </h3>
+		<h4> ALREADY A STUDENT? LOGIN </h4>
 		<form>
-			<input type="text" name="uname" placeholder="Username"><br>
-			<input type="password" name="pwd" placeholder="Password"><br>
-                        <input type="checkbox" name="rem_pwd"> Remember Password
-			<button type="submit" name="reg" class="register"> Register</button>
+			<input type="text" id="field" name="uname" placeholder="Username"><br><br>
+			<input type="password" id="field" name="pwd" placeholder="Password"><br>
+                        <input type="checkbox" name="rem_pwd"> Remember me?
+			<button type="submit" name="reg" class="login"> Login </button>
 		</form>
-		<p class="forgot"><u>Forgot Password?</u></p>
+		<div class="forgot"><u>Forgot Password?</u></div>
 		</td>
 	<tr>
 </table>

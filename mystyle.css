@@ -1,10 +1,78 @@
+h1 {
+color:#003566;
+}
+
+table{
+width: 700px;
+}
 .box1 {
 	height: 50px;
 	width: 50%;
+	padding: 5px;
 }
+.box1 input#field {
+    border: 1px solid red;
+    height: 20px;
+}
+
 .box2 {
 	background-color: #254d74;
 	color: white;
 	height: 50px;
 	width: 50%;
+	padding: 5px;
+}
+
+input[type="checkbox"] {
+    margin: 1px 1px 1px 1px;
+    width: 10px;
+    position: inherit;
+}
+#field {
+width: 270px;
+}
+
+button.login {
+    /* float: right; */
+    padding: 3px;
+    margin-top: 10px;
+    margin-left: 75px;
+    width: 75px;
+    border: 1px solid orange;
+    color: white;
+    background-color: #254d74;
+}
+
+.forgot {
+    margin-left: 192px;
+    font-size: x-small;
+    padding: inherit;
+}
+  td.box2 {
+    display: table-cell;
+    vertical-align: top;
+}
+p.box1 {
+color:white;
+}
+
+span.box1 {
+color:#254d74;
+}
+
+.box2 input#field:first-child {
+    margin: 7px 3px 2px 0px;
+}
+
+.box2 input#field {
+    border: 1px solid;
+    margin: 4px 3px 2px 0px;
+}
+
+h4 {
+    margin: 17px 0px 8px 2px;
+}
+
+span.reg {
+    color: #003566;
 }
